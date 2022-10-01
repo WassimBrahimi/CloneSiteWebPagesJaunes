@@ -1,0 +1,186 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.logo{
+    width: 10%;
+    padding: 0.5%;
+    margin-left: 10%;
+}
+.navbar{
+    background-color: rgb(254, 204, 47);
+}
+
+.nav-link{
+    color: black;
+    text-decoration: none;
+
+}
+.nav-link:hover{
+    color: black;
+    text-decoration: underline;
+}
+.searchForm{
+    background-color: rgb(254, 204, 47);
+    padding: 0%;
+    margin: 0%;
+}
+.title{
+    font-size: 150%;
+    font-weight: 600;
+    padding-top:2%;
+    margin-left:26% ;
+    margin-right:26% ;
+    
+}
+#calligraphy{
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    font-size: 300%;
+    font-weight: 250;
+}
+
+#calligraphy:hover{
+color: black;
+}
+@media only screen and (max-width: 600px)  {
+    .toHide{
+        display: none;
+    }
+    .title{
+        font-size: 70%;
+        margin-left:10% ;
+    margin-right:10% ;
+    }
+    .searchicon{
+        display: none;
+    }
+}
+.img1{
+    position: absolute;
+    padding: 0%;
+    margin: 0%;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    background-color: rgb(254, 204, 47);
+}
+.searchLinks{
+    padding: 1%;
+    color: black;
+    text-decoration: none;
+}
+.searchLinks:hover{
+    text-decoration: underline;
+    color: black;
+}
+.recherches{
+    margin-top: 11%;
+    padding: 5%;
+    background-color: rgb(243, 243, 243);
+}
+.insideText{
+    background-color: white;
+}
+h6{
+    background-color: rgb(254, 204, 47);
+    padding: 2%;
+    width: 45%;
+}
+.sometext{
+    padding: 4%;
+    display: flex;
+}
+.mapTitle{
+    padding: 3%;
+}
+.theiframe{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.decouv{
+    padding-bottom: 3%;
+}
+.ideaLIst{
+    display: flex;
+    padding: 3%;
+}
+.smalltxt{
+    color: gray;
+    font-size: small;
+}
+.normallink{
+    color: black;
+    text-decoration: none;
+}
+.normallink:hover{
+    color: black; 
+    text-decoration: underline;   
+}
+.hipsterGuy{
+    margin: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    filter: contrast(100);
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+    
+}
+.lecontainer {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 130%;
+    font-weight: 500;
+    
+  }
+  .lecentered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .downloadLinks{
+    background-color: rgb(254, 204, 47);
+    width: 90%;
+    margin: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .botTitle{
+    font-size: 120%;
+    font-weight: 500;
+    padding: 2%;
+  
+  }
+
+  .botTxt{
+    width: 25%;
+    padding: 2%;
+  }
+  .downloadImage{
+    height:10pc ;
+  }
+  .logoPlusLink{
+    padding: 5%;
+    padding-top: 1%;
+  }
+ .copyRights{
+    font-size: 70%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 3%;
+    color: gray;
+ }
+ .footerRow{
+    padding: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+ }
+ .footerLInk{
+    font-size: 70%;
+    color: gray;
+ }
+ .footerTitle{
+    font-size: 80%;
+}
